@@ -7,6 +7,9 @@ var clicktracker = 0;
 
 $(document).keypress(function () {
   if (startGameTracker === false) {
+    $("h3").css("display", "none");
+    $(".instructions").css("display", "none");
+    $(".btn").css("display","inline-block");
     nextSequence();
     startGameTracker = true;
   }
