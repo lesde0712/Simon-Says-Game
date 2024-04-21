@@ -19,7 +19,6 @@ h3 {
 
 .instructions{
   display: flex;
-  font-family: 'Press Start 2P', cursive;
   align-items: center;
   justify-content: center;
   margin-top: 0px;
@@ -28,6 +27,7 @@ h3 {
 
 ul{
   color: #FEF2BF;
+  font-family: 'Press Start 2P', cursive;
   list-style-position: outside;
   text-align: left;
   padding: 0%;
